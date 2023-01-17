@@ -1,0 +1,25 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, '', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a{
+  color: white;
+ }
+ a:hover{
+     color: #2EB85C;
+ }
+ .breadcumb{
+  padding: 10px 50px;
+  background-color: #2EB85C;
+ }  

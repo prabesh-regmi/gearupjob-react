@@ -1,0 +1,26 @@
+
+.navbar{
+  background-color: #F8F9FA;
+  align-items: center;
+}.nav-link{
+  border-bottom: 3px solid #F8F9FA;
+}.nav-link:hover{
+  border-bottom: 3px solid Green;
+
+}
+.right-space{
+  margin-right: 20px;
+
+}
+.CNavbarNav{
+  display: block;
+  align-items: center;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.active-nav{
+  background-color: rgb(94, 228, 94);
+  border-radius: 5px;
+}

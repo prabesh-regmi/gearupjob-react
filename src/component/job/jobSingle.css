@@ -1,0 +1,48 @@
+.container>.row {
+    height: auto;
+    min-height: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+.section-hero.overlay, .section-hero.overlay-2 {
+    position: relative;
+  }
+  
+  .section-hero.overlay:before, .section-hero.overlay-2:before {
+    z-index: 1;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .section-hero.overlay-2:before {
+    background: rgba(125, 131, 132, 0.95);
+  }
+  
+  .section-hero>.container {
+    z-index: 2;
+    position: relative;
+  }
+  
+  .section-hero, .section-hero>.container>.row {
+    height: 100vh;
+    min-height: 900px;
+  }
+.thumnail-img{
+    height: 400px;
+}
+  @media only screen and (max-width: 900px) {
+    .thumnail-img{
+        height: 300px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .thumnail-img{
+        height: 200px;
+    }
+  }
